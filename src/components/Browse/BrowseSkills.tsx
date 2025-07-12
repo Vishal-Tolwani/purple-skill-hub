@@ -34,8 +34,8 @@ export const BrowseSkills: React.FC<BrowseSkillsProps> = ({ onNavigate }) => {
   const mockUsers: UserProfile[] = [
     {
       id: '2',
-      name: 'Sarah Johnson',
-      location: 'San Francisco, CA',
+      name: 'Krishna Patel',
+      location: 'Bangalore, India',
       skillsOffered: ['Python', 'Machine Learning', 'Data Science'],
       skillsWanted: ['JavaScript', 'React', 'UI/UX Design'],
       availability: ['weekends', 'evenings'],
@@ -45,8 +45,8 @@ export const BrowseSkills: React.FC<BrowseSkillsProps> = ({ onNavigate }) => {
     },
     {
       id: '3',
-      name: 'Mike Chen',
-      location: 'Seattle, WA',
+      name: 'Ragini Sharma',
+      location: 'Delhi, India',
       skillsOffered: ['Graphic Design', 'Adobe Creative Suite', 'Branding'],
       skillsWanted: ['Web Development', 'SEO', 'Marketing'],
       availability: ['flexible'],
@@ -55,8 +55,8 @@ export const BrowseSkills: React.FC<BrowseSkillsProps> = ({ onNavigate }) => {
     },
     {
       id: '4',
-      name: 'Emily Rodriguez',
-      location: 'Austin, TX',
+      name: 'Arpita Singh',
+      location: 'Pune, India',
       skillsOffered: ['Digital Marketing', 'Content Writing', 'Social Media'],
       skillsWanted: ['Photography', 'Video Editing'],
       availability: ['weekends'],
@@ -65,8 +65,8 @@ export const BrowseSkills: React.FC<BrowseSkillsProps> = ({ onNavigate }) => {
     },
     {
       id: '5',
-      name: 'David Kim',
-      location: 'Boston, MA',
+      name: 'Vishwa Agarwal',
+      location: 'Hyderabad, India',
       skillsOffered: ['Photography', 'Video Production', 'Drone Operation'],
       skillsWanted: ['Business Strategy', 'Financial Planning'],
       availability: ['evenings', 'weekends'],

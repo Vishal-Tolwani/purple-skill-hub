@@ -41,7 +41,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const mockUsers: User[] = [
     {
       id: '1',
-      name: 'Admin User',
+      name: 'Hardik Shah',
       email: 'admin@skillswap.com',
       skillsOffered: ['Project Management', 'Leadership'],
       skillsWanted: ['Machine Learning', 'Data Analysis'],
@@ -53,9 +53,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     },
     {
       id: '2',
-      name: 'John Doe',
-      email: 'john@example.com',
-      location: 'New York, NY',
+      name: 'Vishal Kumar',
+      email: 'vishal@example.com',
+      location: 'Mumbai, India',
       skillsOffered: ['JavaScript', 'React', 'Node.js'],
       skillsWanted: ['Python', 'Machine Learning'],
       availability: ['weekends'],
